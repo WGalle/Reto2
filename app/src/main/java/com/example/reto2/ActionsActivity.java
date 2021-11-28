@@ -157,7 +157,7 @@ public class ActionsActivity extends AppCompatActivity implements View.OnClickLi
 
                     }catch (Exception e){
                         runOnUiThread(() -> {
-                            Toast.makeText(this, "Inicia a atrapar pokemones!", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(this, "Inicia a atrapar pokemones", Toast.LENGTH_SHORT).show();
                         });
                     }
 

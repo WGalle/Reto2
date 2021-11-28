@@ -14,18 +14,19 @@
         android:layout_marginBottom="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@drawable/logo" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/pokemonRowName"
         android:layout_width="180dp"
-        android:layout_height="55dp"
+        android:layout_height="25dp"
         android:layout_marginStart="20dp"
+        android:autoText="false"
         android:background="#E4D9D9"
         android:ems="10"
         android:hint="Nombre Pokemon"
         android:inputType="textPersonName"
+        android:textAlignment="center"
         android:textColorHint="#000000"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="@+id/pokemonRowImage"
