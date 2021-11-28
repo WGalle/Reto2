@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="120dp">
+
+    <ImageView
+        android:id="@+id/pokemonRowImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/pokemonRowName"
+        android:layout_width="180dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="20dp"
+        android:background="#E4D9D9"
+        android:ems="10"
+        android:hint="Nombre Pokemon"
+        android:inputType="textPersonName"
+        android:textColorHint="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/pokemonRowImage"
+        app:layout_constraintStart_toEndOf="@+id/pokemonRowImage"
+        app:layout_constraintTop_toTopOf="@+id/pokemonRowImage" />
+</androidx.constraintlayout.widget.ConstraintLayout>
